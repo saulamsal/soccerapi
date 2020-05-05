@@ -9,8 +9,15 @@ Documentation for the API can be found [here](https://www.sportmonks.com/sports/
 ```json
 {
   "require": {
-    "kirill-latish/laravel-sportmonks-soccer": "^2.0"
-  }
+        "qlur/soccerapi": "dev-master",
+  },
+
+    "repositories": [
+{
+     "type": "vcs",
+            "url": "https://github.com/qlur/soccerapi"
+         
+}],
 }
 ```
 
